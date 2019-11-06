@@ -29,14 +29,9 @@
 						echo "
 						<div class='row'>";
 						
-						
 						echo "<div class='cell' data-title='Team Name'>";
-
-
-							echo $x . " <br>";
 						
-
-
+							echo $x . " <br>";
 						
 						echo"
 						</div>";
@@ -51,17 +46,12 @@
 						echo"
 						<div class='cell' data-title='Score'>";
 
-
-
 						echo $x_value;
-
 
 						echo "</div>";
 
 						echo "</div>";
 					}
-
-
 
 				?>
 
