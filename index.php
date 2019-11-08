@@ -23,15 +23,20 @@
 				<?php 
 
 					$i = 0;
-					foreach ($Combine as $x=>$x_value)
+					foreach ($result as $x=>$x_value)
 					{
 						$i++;
 						echo "
 						<div class='row'>";
 						
-						echo "<div class='cell' data-title='Team Name'>";
 						
+						echo "<div class='cell' data-title='Team Name'>";
+
+
 							echo $x . " <br>";
+						
+
+
 						
 						echo"
 						</div>";
@@ -46,12 +51,17 @@
 						echo"
 						<div class='cell' data-title='Score'>";
 
+
+
 						echo $x_value;
+
 
 						echo "</div>";
 
 						echo "</div>";
 					}
+
+
 
 				?>
 
