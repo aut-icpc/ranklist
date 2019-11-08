@@ -66,14 +66,16 @@ $Detail2 = $DOM2->getElementsByTagName('td');
 
 
 
-    while($nameid1 <= $DetailCount1-736)
+    while($nameid1 <= $DetailCount1-850)
 	{   
 
 		array_push($TeamNameArray1 , $aDataTableDetailHTML1[$nameid1]);
         $nameid1 +=$HeaderCount1;
         
-    }    
-	while($scoreid1 <= $DetailCount1-735)
+    }   
+
+    
+	while($scoreid1 <= $DetailCount1-849)
 	{
 		array_push($TeamScoreArray1 , $aDataTableDetailHTML1[$scoreid1]);
 		$scoreid1 +=$HeaderCount1;
@@ -108,6 +110,7 @@ $Detail2 = $DOM2->getElementsByTagName('td');
     ////////////////////////////////////////////////////////////////////////
 
     $result = array_merge($Combine1 , $Combine2);
+
      asort($result);
 
     $result = array_reverse($result);
